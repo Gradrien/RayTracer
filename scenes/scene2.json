@@ -1,0 +1,46 @@
+{
+  "global": {
+    "encoder_name": "encoder",
+    "renderer_name": "baseRenderer",
+    "output_file": "imageNew.ppm",
+    "scene": "scene3.json"
+  },
+  "primitives": {
+    "sphere": [
+      {
+        "center": {
+          "x": 1,
+          "y": 1,
+          "z": 3
+        },
+        "radius": 1,
+        "color": {
+          "r": 255,
+          "g": 255,
+          "b": 0
+        },
+        "reflection": 0.2,
+        "spec": 500,
+        "transparency": 0.0
+      }
+    ],
+    "cylinder": [
+      {
+        "crossing_point": {
+          "x": 0,
+          "y": 1,
+          "z": 3
+        },
+        "radius": 0.6,
+        "color": {
+          "r": 120,
+          "g": 25,
+          "b": 120
+        },
+        "reflection": 0.2,
+        "spec": 500,
+        "transparency": 0.0
+      }
+    ]
+  }
+}

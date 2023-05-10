@@ -1,0 +1,50 @@
+{
+  "camera": {
+    "resolution": {
+      "width": 800,
+      "height": 800
+    },
+    "origin": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "screen": {
+      "origin": {
+        "x": -0.5,
+        "y": -0.5,
+        "z": 1
+      },
+      "x_vector": {
+        "x": 1,
+        "y": 0,
+        "z": 0
+      },
+      "y_vector": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    }
+  },
+  "primitives": {
+    "sphere": [
+      {
+        "center": {
+          "x": 1,
+          "y": -1,
+          "z": 3
+        },
+        "radius": 1,
+        "color": {
+          "r": 255,
+          "g": 255,
+          "b": 0
+        },
+        "reflection": 0.2,
+        "spec": 500,
+        "transparency": 0.0
+      }
+    ]
+    }
+}

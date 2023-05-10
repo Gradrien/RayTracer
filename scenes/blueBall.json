@@ -1,0 +1,137 @@
+{
+  "global": {
+    "encoder_name": "ppmEncoder",
+    "renderer_name": "baseRenderer",
+    "output_file": "screenshots/blueBall.ppm",
+    "recursion_depth" : 3,
+    "background_color": {
+      "r": 119,
+      "g": 181,
+      "b": 254
+    }
+  },
+  "camera": {
+    "resolution": {
+      "width": 1920,
+      "height": 1080
+    },
+    "origin": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "rotation": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "screen": {
+      "distance_with_camera": 1,
+      "width": 1.920,
+      "height": 1.08
+    }
+  },
+  "primitives": {
+    "sphere": [
+      {
+        "center": {
+          "x": -3,
+          "y": 0,
+          "z": 5
+        },
+        "radius": 1,
+        "color": {
+          "r": 255,
+          "g": 255,
+          "b": 255
+        },
+        "reflection": 0,
+        "spec": 500,
+        "transparency": 0.0
+      },
+      {
+        "center": {
+          "x": 0,
+          "y": 0,
+          "z": 5
+        },
+        "radius": 1,
+        "color": {
+          "r": 255,
+          "g": 255,
+          "b": 255
+        },
+        "reflection": 0,
+        "spec": 500,
+        "transparency": 0
+      },
+      {
+        "center": {
+          "x": 3,
+          "y": 0,
+          "z": 5
+        },
+        "radius": 1,
+        "color": {
+          "r": 255,
+          "g": 255,
+          "b": 255
+        },
+        "reflection": 0,
+        "spec": 500,
+        "transparency": 0
+      }
+    ],
+    "plane": [
+      {
+        "normal": {
+          "x": 0,
+          "y": 1,
+          "z": 0
+        },
+        "translation": -1.0,
+        "color": {
+          "r": 255,
+          "g": 255,
+          "b": 255
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "reflection": 0,
+        "spec": 1000,
+        "transparency": 0.0
+      }
+    ]
+  },
+  "lights": {
+    "point": [
+      {
+        "color": {
+          "r": 0,
+          "g": 0,
+          "b": 255
+        },
+        "x": 0,
+        "y": 10,
+        "z": -51,
+        "intensity": 0.4
+      }
+    ],
+    "directional": [
+      {
+        "color": {
+          "r": 255,
+          "g": 255,
+          "b": 255
+        },
+        "x": 0,
+        "y": 0,
+        "z": 1,
+        "intensity": 0.1
+      }
+    ]
+  }
+}

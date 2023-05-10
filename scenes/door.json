@@ -1,0 +1,193 @@
+{
+  "global": {
+    "encoder_name": "ppmEncoder",
+    "renderer_name": "baseRenderer",
+    "output_file": "screenshots/door.ppm",
+    "recursion_depth": 3,
+    "background_color": {
+      "r": 0,
+      "g": 0,
+      "b": 0
+    }
+  },
+  "camera": {
+    "resolution": {
+      "width": 800,
+      "height": 800
+    },
+    "origin": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "rotation": {
+      "x": 0,
+      "y": 0,
+      "z": 30
+    },
+    "screen": {
+      "distance_with_camera": 1,
+      "height": 1,
+      "width": 1
+    }
+  },
+  "primitives": {
+    "cone": [
+      {
+        "crossing_point": {
+          "x": 0,
+          "y": 0,
+          "z": 5
+        },
+        "angle": 30,
+        "color": {
+          "r": 128,
+          "g": 206,
+          "b": 216
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "reflection": 0,
+        "spec": 500,
+        "transparency": 0.0
+      }
+    ],
+    "sphere": [
+      {
+        "center": {
+          "x": 0,
+          "y": 0,
+          "z": 5
+        },
+        "radius": 1,
+        "color": {
+          "r": 0,
+          "g": 126,
+          "b": 167
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "reflection": 0,
+        "spec": 500,
+        "transparency": 0.0
+      }
+    ],
+    "cylinder": [
+      {
+        "crossing_point": {
+          "x": 2,
+          "y": 0,
+          "z": 5
+        },
+        "radius": 1,
+        "color": {
+          "r": 255,
+          "g": 255,
+          "b": 255
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "reflection": 0.2,
+        "spec": 500,
+        "transparency": 0.0
+      },
+      {
+        "crossing_point": {
+          "x": -2,
+          "y": 0,
+          "z": 5
+        },
+        "radius": 1,
+        "color": {
+          "r": 255,
+          "g": 255,
+          "b": 255
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "reflection": 0.2,
+        "spec": 500,
+        "transparency": 0.0
+      },
+      {
+        "crossing_point": {
+          "x": 0.75,
+          "y": 0,
+          "z": 5
+        },
+        "radius": 0.25,
+        "color": {
+          "r": 0,
+          "g": 50,
+          "b": 73
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "reflection": 0,
+        "spec": 500,
+        "transparency": 0.0
+      },
+      {
+        "crossing_point": {
+          "x": -0.75,
+          "y": 0,
+          "z": 5
+        },
+        "radius": 0.25,
+        "color": {
+          "r": 0,
+          "g": 50,
+          "b": 73
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "reflection": 0,
+        "spec": 500,
+        "transparency": 0.0
+      }
+    ]
+  },
+  "lights": {
+    "point": [
+      {
+        "color": {
+          "r": 255,
+          "g": 255,
+          "b": 255
+        },
+        "x": 0,
+        "y": 0,
+        "z": 2,
+        "intensity": 0.7
+      }
+    ],
+    "ambient": [
+      {
+        "color": {
+          "r": 255,
+          "g": 255,
+          "b": 255
+        },
+        "intensity": 0.2
+      }
+    ]
+  }
+}
